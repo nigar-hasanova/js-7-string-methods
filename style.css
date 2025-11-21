@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    padding: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    background-color: pink;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: rgb(230, 1, 180);
+    background-color: white;
+    border: 1px solid pink;
+    outline: pink;
+}
+
+input::placeholder {
+    color: rgb(230, 1, 180);
+    opacity: 0.4;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box p {
+    max-width: 210px;
+    margin-top: 40px;
+}
+
+.box .btn {
+    max-width: 200px;
+}

@@ -26,9 +26,9 @@ function paragraph() {
 
     if (lorem.textContent === shortText) {
         lorem.textContent = fullText;
-        showMore.textContent = 'Show more';
+        showMore.textContent = 'Show less';
     } else {
         lorem.textContent = shortText;
-        showMore.textContent = 'Show less';
+        showMore.textContent = 'Show more';
     }
 }
